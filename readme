@@ -1,0 +1,15 @@
+http://localhost:1313/post/first-post/
+
+> hugo server
+run server
+
+> hugo server --buildDrafts
+run server with drafs
+
+> hugo server --theme=hugo_theme_robust
+run server with theme
+
+> hugo undraft content/post/good-to-great.md
+removes page from draft
+
+
