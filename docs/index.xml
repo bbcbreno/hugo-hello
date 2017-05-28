@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2017 22:35:36 -0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uma introducao ao JavaScript ES6</title>
+      <link>http://example.org/post/uma-introducao-ao-javascript-es6/</link>
+      <pubDate>Sat, 20 May 2017 22:35:36 -0300</pubDate>
+      
+      <guid>http://example.org/post/uma-introducao-ao-javascript-es6/</guid>
+      <description>Vamos utilizar:
+ JavaScript (JS)
+ ECMAScript6 (ES6)
+ Node
+ Babel
+ WebPack
+  Propósito do JavaScript.
+A JavaScript nasceu para que o programador possa criar alguns scripts que serão executados diretamente no navegador do cliente, antes de passar pelo servidor da aplicação. Um exemplo simples: o usuário preencher algum formulário de cadastro e o CPF inválido, antes do usuário enviar o formulário para o servidor efetuar o cadastro, o navegador pode executar um código JavaScript e este alertar o usuário de que o CPF está inválido.</description>
+    </item>
+    
+  </channel>
+</rss>
