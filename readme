@@ -12,4 +12,6 @@ run server with theme
 > hugo undraft content/post/good-to-great.md
 removes page from draft
 
+markdown syntax
+https://sourceforge.net/p/hugo-generator/wiki/markdown_syntax/
 

@@ -4,6 +4,8 @@ lastmod = "2017-05-21T22:35:36-03:00"
 draft = false
 title = "Uma introducao ao JavaScript ES6"
 euzin = "xpto"
+notoc = true
+highlight = true
 
 [blackfriday]
   angledQuotes = true
@@ -12,8 +14,8 @@ euzin = "xpto"
   extensions = ["hardLineBreak"]
 
 +++
-
 Vamos utilizar:
+
 + JavaScript (JS)
 + ECMAScript6 (ES6)
 + Node
@@ -51,17 +53,17 @@ Após instalação do Node (https://nodejs.org/en/) vamos criar uma nova pasta c
 
 Vamos criar nosso index.html.
 
-/build/index.html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello ES6</title>
-  </head>
-  <body>
-    <script type="text/javascript" src="bundle.js"></script>
-  </body>
-</html>
+    /build/index.html
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Hello ES6</title>
+      </head>
+      <body>
+        <script type="text/javascript" src="bundle.js"></script>
+      </body>
+    </html>
 
 Vamos criar nosso arquivo JS.
 /app/index.js

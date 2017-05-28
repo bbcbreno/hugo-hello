@@ -5,3 +5,4 @@ theme = "hugo-sustain"
 [Params]
 author = "Breno Caldeira"
 avatar = "breno.jpg"
+custom_css = ["css/custom.css"]
