@@ -1,0 +1,28 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+          <i style="font-size: 26px;" class="fa fa-code"></i>
+        <div class="avatar">
+          <img class="img-circle" style="width: 90px" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <br><br>
+        <h4>Olá você. jj<strong>{{ .Site.Params.author }}</strong> aqui!</h4>
+        <h4>Um desenvolvedor Full Stack e fotógrafo em algumas horas vagas.</h4>
+        <br>
+        <h4>O intuito desse blog é trazer um pouco de conteúdo em português para a comunidade. Quero transmitir parte do conhecimento que adquiro nos meus estudo. Espero que isto seja fácil, prático e divertido para você. :)</h4>
+        <br>
+        <h4>Clique <a href="{{ .Site.BaseURL }}post/">aqui</a> para começar a magia.</h4>
+        <!--<h4>Have a look at some of my working <a href="{{ .Site.BaseURL }}post/"> projects</a>.</h4>-->
+        <!--<h4>Have a look at some of my working <a href="{{ .Site.BaseURL }}projects/"> projects</a>.</h4>-->
+        <!--<h4>For more check out my academic &amp; professional <a href="https://demo.nurlan.co/hugo-vitae/">resume</a>.</h4>-->
+        <!--<h4>Contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> or by <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h4>-->
+        <!--{{ partial "social.html" . }}-->
+        </div>
+      </section>
+    </div>
+    <!--{{ partial "footer" . }}-->
+  </body>
+</html>
